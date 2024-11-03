@@ -1,0 +1,145 @@
+body{
+    font: 14px/1.5 Verdana,Arial,Sans-Serif;
+    
+
+}   
+  
+.input-group{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}     
+
+.button{
+    border-color: #300D00;
+    background-color: #461200;
+    background-image: none;
+    filter: none;
+ 
+} 
+.leftmenu2 span {
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-family: erdana,helvetica,arial,sans-serif;
+    color:#df3a01;
+    padding-left: 23px;
+    font-weight: 700;
+    font-size: 13px;
+    width: 100%;
+    display: block;
+    background: url(ICONS/icon_bullet.png) no-repeat;
+}  h1, h2, h3 {
+    line-height:1em;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.span.spanh2 {
+    color: #df3a01;
+    line-height: 0;
+    font: 20px verdana,helvetica,arial,sans-serif;
+    display: inline;
+}
+.Lefmenu a{
+   color:#000;
+}  
+
+.leftmenu a:visited {
+    font: 13px verdana,helvetica,arial,sans-serif;
+    line-height: 21px;
+    color: #000;
+    text-decoration: none;
+}
+
+.leftmenu a:active, .leftmenu a:hover, .leftmenu a:link, .leftmenu a:visited {
+    width: 100%;
+    display: block;
+    margin-left: 14px;
+    margin-top: 2px;
+    float: left;
+    background: url(ICONS/arrowbullet.png) 0 4px no-repeat;
+    padding-left: 15px;
+}
+a{
+    color:#000;
+    text-decoration: none;
+}
+.white a{
+    background-color:#115f64;
+    display: block;
+    text-decoration: none;
+    color:#fff; 
+    font-size: 13px;
+    padding: 0.9em;
+    cursor: pointer;
+    transition: all .25s ease-in-out; 
+}  
+
+.white a.selected:hover {
+    background-color: rgb(0 0 0/50%);
+
+}    
+ 
+.container{
+    font-family: Verdana,Arial,Sans-Serif;
+    gap: 30px;
+
+}  
+
+.container1{
+    background-color: #4caf50;
+    padding: 30px;
+    height: 330px;
+    color:#fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.atex a{
+    text-decoration: none;
+    color:#fff;
+    
+
+}
+
+.footer{
+    clear: both;
+    background-color: #3b753d;
+    padding: 20px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    cursor: default;
+}    
+ 
+.College{
+    
+    background-image: linear-gradient(145deg,#dc8140,#b16b15);
+    color: #fff;
+    padding: 60px 0px 0px 20px;
+    
+} 
+
+.services{
+    background-image: linear-gradient(145deg,#52a2fc,#480fcc);
+    color: #fff;
+    padding: 60px 0px 0px 20px;
+} 
+
+
+
+    
+   
+    
+
+
+  

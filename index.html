@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReactJS Introduction-javatpoint</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+       <link rel="stylesheet" href="style.css" />
+       <link href="https://www.javatpoint.com/manifest.json" rel="manifest">
+       <script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = 'https://delivery.adrecover.com/37784/adRecover.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+       <script src="script.js" defer></script>
+    </head>
+    
+  <body onload="highlightlink()">
+          <div id="page" style="margin:-8px;background-color:#f5f5f4;"><div id="container"> <div class="header"><table style="width:100%;margin-bottom:5px"> <tr> <td> <div style="clear:both;float:left;width:230px;margin-top:15px;margin-left:20px"> <a href="https://www.javatpoint.com"><img src="https://static.javatpoint.com/images/logo/jtp_logo.png" alt="Javatpoint Logo" /></a> </div> <div style="float:left;width:60%;"><script> (function() { var cx = '005383125436438536544:y1edweedxwi'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })();</script><gcse:search></gcse:search> </div> </td> </tr></table> </div>
+          <div class="headermobile">
+          <div style="margin-top:10px;padding:0px;text-align:left;">
+          <span style="float:left"><a href="https://www.javatpoint.com">
+         
+        <div class="text-white ">
+           <div class="row ">
+              <ul class=" white d-flex flex-row " >
+                   <a href="https://www.javatpoint.com">Home</a>
+                   <a href="https://www.javatpoint.com/react-native-tutorial">React Native</a>
+                   <a href="https://www.javatpoint.com/reactjs-tutorial" class="selected">ReactJS</a>
+                   <a href="https://www.javatpoint.com/typescript-tutorial">TypeScript</a>
+                   <a href="https://www.javatpoint.com/javascript-tutorial">JavaScript</a>
+                   <a href="https://www.javatpoint.com/framework7-tutorial">Framework7</a>
+                   <a href="https://www.javatpoint.com/java-tutorial">Java</a>
+                   <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial">COA</a>
+                   <a href="https://www.javatpoint.com/html-tutorial">HTML</a></li>
+                   <a href="https://www.javatpoint.com/css-tutorial">CSS</a></li>
+                   <a href="https://www.javatpoint.com/selenium-tutorial">Selenium</a>
+                   <a href="https://www.javatpoint.com/servlet-tutorial">Servlet</a>
+                   <a href="https://www.javatpoint.com/jsp-tutorial">JSP</a></li>
+                   <a href="https://www.javatpoint.com/jquery-tutorial">jQuery</a>
+                   <a href="https://www.javatpoint.com/examaccess">Quiz</a></li>
+                   <a href="https://www.javatpoint.com/free-java-projects">Projects</a>
+                   <a href="https://www.javatpoint.com/corejava-interview-questions">Interview Q</a>
+                   <a href="https://www.javatpoint.com/react-native-tutorial">Comment</a>
+                </ul>
+            </div>  
+        </div>
+               
+            <div class="leftmenu2 d-flex flex-column">
+              <h2 class="spanh2"><span class="spanh2">ReactJS Tutorial</span></h2>
+            </div>
+              <div class="leftmenu d-flex flex-column" style=color:#000;>
+                <a href="https://www.javatpoint.com/reactjs-tutorial"><strong class="js" style=color:#000;>ReactJS Tutorial</strong> <img src="ICONS/open-12.png" alt="open link"></a>
+                <a href="https://www.javatpoint.com/react-introduction">React Introduction</a>
+                <a href="https://www.javatpoint.com/react-version">React Version</a>
+                <a href="https://www.javatpoint.com/react-installation">React Installation</a>
+                <a href="https://www.javatpoint.com/react-create-react-app">create-react-app</a>
+                <a href="https://www.javatpoint.com/react-features">React Features</a>
+                <a href="https://www.javatpoint.com/pros-and-cons-of-react">Pros &amp; Cons</a>
+                <a href="https://www.javatpoint.com/reactjs-vs-angularjs">ReactJS vs AngularJS</a>
+                <a href="reactjs-vs-reactnative">ReactJS vs ReactNative</a>
+                <a href="react-vs-vue">React vs Vue</a>
+                <a href="react-jsx">React JSX</a>
+                <a href="react-components">React Components</a>
+                <a href="react-state">React State</a>
+                <a href="react-props">React Props</a>
+                <a href="react-props-validation">React Props Validation</a>
+                <a href="react-state-vs-props">React State vs Props</a>
+                <a href="react-constructor">React Constructor</a>
+                <a href="react-component-api">React Component API</a>
+                <a href="react-component-life-cycle">Component Life Cycle</a>
+                <a href="react-forms">React Forms</a>
+                <a href="react-controlled-vs-uncontrolled-component">Controlled vs Uncontrolled</a>
+                <a href="react-events">React Events</a>
+                <a href="react-conditional-rendering">Conditional Rendering</a>
+                <a href="react-lists">React Lists</a>
+                <a href="react-keys">React Keys</a>
+                <a href="react-refs">React Refs</a>
+                <a href="react-fragments">React Fragments</a>
+                <a href="react-router">React Router</a>
+                <a href="react-css">React CSS</a>
+                <a href="react-animation">React Animation</a>
+                <a href="react-bootstrap">React Bootstrap</a>
+                <a href="react-map">React Map</a>
+                <a href="react-table">React Table</a>
+                <a href="react-higher-order-components">Higher-Order Components</a>
+                <a href="react-code-splitting">React Code Splitting</a>
+                <a href="react-context">React Context</a>
+                <a href="react-hooks">React Hooks</a>
+                <a href="react-flux-concept">React Flux Concept</a>
+                <a href="react-flux-vs-mvc">React Flux Vs MVC</a>
+                <a href="react-redux">React Redux</a>
+                <a href="react-redux-example">React Redux Example</a>
+                <a href="react-portals">React Portals</a>
+                <a href="react-error-boundaries">React Error Boundaries</a>
+             </div>
+              <div class="leftmenu2 d-flex flex-column">
+                <h2 class="spanh2"><span class="spanh2">Misc.</span></h2>
+              </div>
+              <div class="leftmenu d-flex flex-column">
+                  <a href="loop-array-in-reactjs">Loop Array in React JS</a>
+                  <a href="react-axios-delete-request-example">React Axios Delete Request Example</a>
+                  <a href="react-multiple-checkbox">React Multiple Checkbox</a>
+                  <a href="react-icons">React-icons</a>
+                  <a href="react-date-picker">React Date Picker</a>
+                  <a href="react-helmet">React Helmet</a>
+                  <a href="inline-style-in-react">Inline Style in React</a>
+                  <a href="jquery-vs-react">jQuery vs. React</a>
+                  <a href="reactjs-architecture">ReactJS Architecture</a>
+                  <a href="reactjs-proptypes">ReactJS PropTypes</a>
+                  <a href="browserrouter-in-react">BrowserRouter in React</a>
+                  <a href="react-vs-svelte">React vs. Svelte</a>
+                  <a href="button-in-react">Button in React</a>
+                  <a href="what-is-dom-in-react">What is Dom in React</a>
+                  <a href="unit-testing-in-react">Unit Testing in React</a>
+                  <a href="carousel-in-react">Carousel in React</a>
+                  <a href="react-paginate">React-Paginate</a>
+                  <a href="what-is-the-usestate-in-react">What is the useState in React</a>
+                  <a href="react-time-picker">React Time-Picker</a>
+                  <a href="react-js-vs-node-js">React.js vs Node.js</a>
+                </div>
+                <div class="leftmenu2 d-flex flex-column">
+                  <h2 class="spanh2"><span class="spanh2">MCQ</span></h2>
+                </div>
+                <div class="leftmenu d-flex flex-column">
+                  <a href="reactjs-mcq">React.js MCQ</a>
+                </div>
+                <div class="leftmenu2 d-flex flex-column">
+                  <h2 class="spanh2"><span class="spanh2">Interview Questions</span></h2>
+                </div>
+                <div class="leftmenu d-flex flex-column">
+                  <a href="react-interview-questions">ReactJS Interview</a>
+                 </div> 
+                <br>
+                <br>
+                <br>
+              <div class="container">
+                <img src="ICONS/youtube32.png" alt="" srcset="">
+                <span class="h3" style="vertical-align:middle;font-size:22px"> For Videos Join Our Youtube Channel: <a href="https://bit.ly/2FOeX6S" target="_blank" class="Join" style="color: #008000;"> Join Now</a></span>
+              </div>
+              <br>
+              <div class="container">
+                <h3 class="h3">Feedback</h3>
+                <ul class="points">
+                <li>Send your Feedback to feedback@javatpoint.com</li>
+                </ul>
+                <br>
+              </div>
+             <div class="container">
+              <h2 class="h2">Help Others, Please Share</h2>
+              <img src="ICONS1/facebook32.png" alt="" srcset=""> 
+              <img src="ICONS1/twitter32.png" alt="" srcset=""> 
+              <img src="ICONS1/pinterest32.png" alt="" srcset="">
+            </div>
+            <br>
+             
+            <div class="container">
+                <div class="row">
+                  <h2>Learn Latest Tutorials</h2>
+                  <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/splunk"></a>
+                  <img src="img3/splunk.png" alt="Splunk" srcset="">
+                  <p>Splunk</p>
+                  </div>
+                  <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/spss"></a>
+                  <img src="img3/spss.png" alt="SPSS" srcset="">
+                  <p>SPSS</p>
+                  </div>
+                  <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/swagger"></a>
+                  <img src="img3/swagger.png" alt="Swagger" srcset="">
+                  <p>Swagger</p>
+                  </div>
+                  <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/t-sql"></a>
+                  <img src="img3/transact-sql.png" alt="Transact SQL" srcset="">
+                  <p>Transact SQL</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/tumblr"></a>
+                    <img src="img3/tumblr.png" alt="Tumblr" srcset="">
+                    <p>TumblrL</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/reactjs-tutorial"></a>
+                    <img src="img3/react.png" alt="ReactJS" srcset="">
+                    <p>ReactJS</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/regex"></a>
+                    <img src="img3/regex.png" alt="Regex" srcset="">
+                    <p>Regex</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/reinforcement-learning"></a>
+                    <img src="img3/react (1).png" alt="Reinforcement Learning" srcset="">
+                    <p>Reinforcement Learning</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/r-tutorial"></a>
+                    <img src="img3/r-programming.png" alt="R Programming" srcset="">
+                    <p>R Programming</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/rxjs"></a>
+                    <img src="img3/rxjs.png" alt="RxJS" srcset="">
+                    <p>RxJS</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/react-native-tutorial"></a>
+                    <img src="img3/react-native.png" alt="React Native" srcset="">
+                    <p>React Native</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/python-design-pattern"></a>
+                    <img src="img3/python-design-patterns.png" alt="Python Design Pattern" srcset="">
+                    <p>Python Design Pattern</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/python-pillow"></a>
+                    <img src="img3/python-pillow.png" alt="Python Pillow" srcset="">
+                    <p>Python Pillow</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/python-turtle-programming"></a>
+                    <img src="img3/python-turtle.png" alt="Python Turtle" srcset="">
+                    <p>Python Turtle</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/keras"></a>
+                    <img src="img3/keras.png" alt="Keras" srcset="">
+                    <p>Keras</p>
+                  </div>  
+                </div>
+            </div>
+      
+            <div class="container">
+              <div class="row">
+                <h2>Preparation</h2>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/aptitude/quantitative"></a>
+                  <img src="img2/quantitative-aptitude-home.png" alt="Aptitude" srcset="">
+                  <p>Aptitude</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/reasoning"></a>
+                  <img src="img2/reasoning-home.png" alt="Reasoning" srcset="">
+                  <p>Reasoning</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/verbal-ability"></a>
+                  <img src="img2/verbal-ability-home.png" alt="Verbal Ability" srcset="">
+                  <p>Verbal Ability</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/interview-questions-and-answers"></a>
+                  <img src="img2/interviewhome.png" alt="Interview Questions" srcset="">
+                  <p>Interview Questions</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/company-interview-questions-and-recruitment-process"></a>
+                  <img src="img2/company-home.jpeg" alt="Company Questions" srcset="">
+                  <p>Company Questions</p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="container">
+              <div class="row">
+                <h2>Trending Technologies</h2>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/artificial-intelligence-ai"></a>
+                  <img src="img1/artificial-intelligence.png" alt="Artificial Intelligence" srcset="">
+                  <p>Artificial Intelligence</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/aws-tutorial"></a>
+                  <img src="img1/amazon-web-services.png" alt="AWS" srcset="">
+                  <p>AWS</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/selenium-tutorial"></a>
+                  <img src="img1/selenium.png" alt="Selenium" srcset="">
+                  <p>Selenium</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/cloud-computing"></a>
+                  <img src="img1/cloud-computing.png" alt="Cloud Computing" srcset="">
+                  <p>Cloud Computing</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/hadoop-tutorial"></a>
+                  <img src="img1/hadoop.png" alt="Hadoop" srcset="">
+                  <p>Hadoop </p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/reactjs-tutorial"></a>
+                  <img src="img1/reactjs.png" alt="ReactJS" srcset="">
+                  <p>ReactJS</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/data-science"></a>
+                  <img src="img1/data-science.png" alt="Data Science" srcset="">
+                  <p>Data Science</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/angular-7-tutorial"></a>
+                  <img src="img1/angular7.png" alt="Angular" srcset="">
+                  <p>Angular</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/blockchain-tutorial"></a>
+                  <img src="img1/blockchain.png" alt="Blockchain" srcset="">
+                  <p>Blockchain</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/git"></a>
+                  <img src="img1/git.png" alt="Git" srcset="">
+                  <p>Git</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/machine-learning"></a>
+                  <img src="img1/machine-learning.png" alt="Machine Learning" srcset="">
+                  <p>Machine Learning</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.javatpoint.com/devops"></a>
+                  <img src="img1/devops.png" alt="DevOps" srcset="">
+                  <p>DevOps</p>
+                </div>
+              </div>
+           </div>
+            <div class="container">
+                <div class="row">
+                  <h2>B.Tech / MCA</h2> 
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/dbms-tutorial"></a>
+                    <img src="img/dbms.png" alt="DBMS" srcset="">
+                    <p>DBMS</p>
+                  </div>  
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/data-structure-tutorial"></a>
+                    <img src="img/data-structures.png" alt="Data Structures" srcset="">
+                    <p>Data Structures</p>  
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/daa-tutorial"></a>
+                    <img src="img/daa.png" alt="DAA" srcset="">
+                    <p>DAA</p>  
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/operating-system"></a>
+                    <img src="img/operating-system.png" alt="Operating System" srcset="">
+                    <p>Operating System</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/computer-network-tutorial"></a>
+                    <img src="img/computer-network.png" alt="Computer Network" srcset="">
+                    <p>Computer Network</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/compiler-tutorial"></a>
+                    <img src="img/compiler-design.png" alt="Compiler Design" srcset="">
+                    <p>Compiler Design</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/computer-organization-and-architecture-tutorial"></a>
+                    <img src="img/computer-organization.png" alt="Computer Organization" srcset="">
+                    <p>Computer Organization</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/discrete-mathematics-tutorial"></a>
+                    <img src="img/computer-organization.png" alt="Discrete Mathematics" srcset="Discrete Mathematics">
+                    <p>Discrete Mathematics</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/ethical-hacking"></a>
+                    <img src="img/ethical-hacking.png" alt="Ethical Hacking" srcset="">
+                    <p>Ethical Hacking</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/computer-graphics-tutorial"></a>
+                    <img src="img/computer-graphics.png" alt="Computer Graphics" srcset="">
+                    <p>Computer Graphics</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/software-engineering"></a>
+                    <img src="img/software-engineering.png" alt="Software Engineering" srcset="">
+                    <p>Software Engineering</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/html-tutorial"></a>
+                    <img src="img/web-technology.png" alt="Web Technology" srcset="">
+                    <p>Web Technology</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/cyber-security-tutorial"></a>
+                    <img src="img/cyber-security.png" alt="Cyber Security" srcset="">
+                    <p>Cyber Security</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/automata-tutorial"></a>
+                    <img src="img/automata.png" alt="Automata" srcset="">
+                    <p>Automata</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/c-programming-language-tutorial"></a>
+                    <img src="img/c-programming.png" alt="C Programming" srcset="">
+                    <p>C Programming</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/cpp-tutorial"></a>
+                    <img src="img/cpp.png" alt="C++" srcset="">
+                    <p>C++</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/java-tutorial"></a>
+                    <img src="img/java.png" alt="Java" srcset="">
+                    <p>Java</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/net-framework"></a>
+                    <img src="img/dot-net.png" alt="Net" srcset="">
+                    <p>Net</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/python-tutorial"></a>
+                    <img src="img/python.png" alt="Python" srcset="">
+                    <p>Python</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/programs-list"></a>
+                    <img src="img/programs.png" alt="Programs" srcset="">
+                    <p>Programs</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/control-system-tutorial"></a>
+                    <img src="img/control-system.png" alt="Control Systems" srcset="">
+                    <p>Control Systems</p>
+                  </div>
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/data-mining"></a>
+                    <img src="img/data-mining.png" alt="Data Mining" srcset="">
+                    <p>Data Mining</p>
+                  </div> 
+                  <div class="col-md-3">
+                    <a href="https://www.javatpoint.com/data-warehouse"></a>
+                    <img src="img/data-warehouse.png" alt="Data Warehouse" srcset="">
+                    <p>Data Warehouse</p>
+                  </div>  
+                  
+                </div>
+            </div>    
+            
+       
+               
+              <div class="services">
+                  <h2>Javatpoint Services</h2>
+                  <p>JavaTpoint offers too many high quality services. Mail us on hr@javatpoint.com, to get more information about given services.</p>
+                  <ul class="points"> 
+                    <li>Website Designing</li>
+                    <li>Website Development</li>
+                    <li>Java Development</li>
+                    <li>PHP Development</li>
+                    <li>WordPress</li>
+                    <li>Graphic Designing</li><li>Logo</li>
+                    <li>Digital Marketing</li>
+                    <li>On Page and Off Page SEO</li>
+                    <li>PPC</li>
+                    <li>Content Development</li>
+                    <li>Corporate Training</li>
+                    <li>Classroom and Online Training</li>
+                    <li>Data Entry</li>
+                  </ul>
+              </div>
+            <div class="College">
+               <h2>Training For College Campus</h2>    
+               <p>  
+                  JavaTpoint offers college campus training on Core Java, Advance Java, .Net, Android, Hadoop, PHP, Web Technology and Python. Please mail your requirement at hr@javatpoint.com.
+                  Duration: 1 week to 2 week
+                </p> 
+            </div>             
+                   
+            
+          <div class="lead d-flex gap-6 justify-content-center">
+            <div class="sup" style="font:16px arial">
+              Like/Subscribe us for latest updates or newsletter
+            </div>
+            <div class="logo d-flex gap-2 align-item-center ">
+              <img src="ICONS/rss1.png" alt="" srcset="">
+              <img src="ICONS/mail1.png" alt="" srcset="">
+              <img src="ICONS/facebook1.jpg" alt="" srcset="">
+              <img src="ICONS/twitter1.png" alt="" srcset="">
+              <img src="ICONS/youtube32.png" alt="" srcset="">
+              <img src="ICONS/blog.png" alt="" srcset="">
+            </div>
+
+          </div> 
+          
+       
+        <div class="container1">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 text-white">
+              <div class="col d-flex flex-column text-white atex p-2">
+                   <a class="h5">LEARN TUTORIALS</a>
+                   <a href="https://www.javatpoint.com/java-tutorial" class="Learn text-white ">Learn Java</a>
+                   <a href="https://www.javatpoint.com/data-structure-tutorial">Learn Data Structures</a>
+                   <a href="https://www.javatpoint.com/c-programming-language-tutorial">Learn C Programming</a>
+                   <a href="https://www.javatpoint.com/cpp-tutorial">Learn C++ Tutorial</a>
+                   <a href="https://www.javatpoint.com/c-sharp-tutorial">Learn C# Tutorial</a>
+                   <a href="https://www.javatpoint.com/php-tutorial">Learn PHP Tutorial</a>
+                   <a href="https://www.javatpoint.com/html-tutorial">Learn HTML Tutorial</a>
+                   <a href="https://www.javatpoint.com/javascript-tutorial">Learn JavaScript Tutorial</a>
+                   <a href="https://www.javatpoint.com/jquery-tutorial">Learn jQuery Tutorial</a>
+                  <a href="https://www.javatpoint.com/spring-tutorial">Learn Spring Tutorial</a>
+              </div>
+              <div class="col d-flex flex-column text-white atex">
+                   <h5>INTERVIEW QUESTIONS</h5>
+                   <a href="corejava-interview-questions">Java Interview Questions</a>
+                   <a href="sql-interview-questions">SQL Interview Questions</a>
+                   <a href="python-interview-questions">Python Interview Questions</a>
+                   <a href="javascript-interview-questions">JavaScript Interview Questions</a>
+                   <a href="top-angular-interview-questions">Angular Interview Questions</a>
+                   <a href="selenium-interview-questions">Selenium Interview Questions</a>
+                   <a href="spring-boot-interview-questions">Spring Boot Interview Questions</a>
+                   <a href="job-interview-questions">HR Interview Questions</a>
+                   <a href="cpp-interview-questions">C++ Interview Questions</a>
+                   <a href="data-structure-interview-questions">Data Structure Interview Questions</a>
+              </div>
+              <div class="col">
+                   <h5>OUR SERVICES</h5>
+                   <p>Website Development</p>
+                   <p>Android Development</p>
+                   <p>Website Designing</p>
+                   <p>Digital Marketing</p>
+                   <p>Summer Training</p>
+                   <p>Industrial Training</p>
+                   <p>College Campus Training</p>
+              </div>
+              <div class="col d-flex flex-column atex">
+                   <h5>CONTACT</h5>
+                   <p>Address: G-13, 2nd Floor, Sec-3</p>
+                   <p>Noida, UP, 201301, India</p>
+                   <p>Contact No: 0120-4256464, 9990449935</p>
+                   <a href="https://www.javatpoint.com/contact-us">Contact Us</a>
+                   <a href="https://www.javatpoint.com/subscribe.jsp">Subscribe Us</a>
+                   <a href="https://www.javatpoint.com/privacy-policy">Privacy Policy</a>
+                   <a href="https://www.javatpoint.com/sitemap.xml">Sitemap</a>
+                   <br>
+                   <a href="https://www.javatpoint.com/sonoo-jaiswal">About Me</a>
+                </div> 
+                   
+            </div>     
+                
+        </div>   
+           
+        <footer class="footer">
+            <p>
+               © Copyright 2011-2021 www.javatpoint.com. All rights reserved. Developed by JavaTpoint. 
+            </p>
+        </footer> 
+             
+         
+        
+    </body> 
+                  
+             
+   
+  
+</html>
